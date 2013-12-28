@@ -1,4 +1,4 @@
-# Copyright (C) 2013 OmniROM Project
+# Copyright (C) 2013 DirtyUnicorns
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,16 +13,16 @@
 # limitations under the License.
 
 # Inherit CDMA configuration
-$(call inherit-product, vendor/omni/config/cdma.mk)
+$(call inherit-product, vendor/du/config/cdma.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/l900/full_l900.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_l900
+PRODUCT_NAME := du_l900
 PRODUCT_DEVICE := l900
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
