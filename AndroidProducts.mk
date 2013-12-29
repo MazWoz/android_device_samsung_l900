@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_l900.mk \
-    $(LOCAL_DIR)/omni_l900.mk
+    $(LOCAL_DIR)/du_l900.mk
