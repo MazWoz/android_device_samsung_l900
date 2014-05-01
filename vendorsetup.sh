@@ -1,1 +1,1 @@
-add_lunch_combo du_l900-userdebug
+add_lunch_combo ev_l900-userdebug

@@ -14,16 +14,16 @@
 # limitations under the License.
 
 # Inherit CDMA configuration
-$(call inherit-product, vendor/du/config/cdma.mk)
+$(call inherit-product, vendor/ev/config/cdma.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/du/config/common.mk)
+$(call inherit-product, vendor/ev/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/l900/full_l900.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := du_l900
+PRODUCT_NAME := ev_l900
 PRODUCT_DEVICE := l900
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
